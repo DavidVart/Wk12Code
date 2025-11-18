@@ -166,5 +166,36 @@ button:hover {
     transform: scale(1);
   }
   
+  .lightbox .lb-caption {
+      background-color: #000 !important;
+      color: #fff !important;
+      font-weight: bold !important;
+      padding: 10px !important;
+      line-height: 1.4 !important;
+      min-height: 40px !important;
+      display: block !important;
+  }
   
+  .lightbox .lb-number {
+      background-color: #000 !important;
+      color: #fff !important;
+      font-weight: bold !important;
+      padding: 5px 10px !important;
+      border-radius: 3px !important;
+      margin-top: 5px !important;
+      display: block !important;
+      clear: both !important;
+  }
+
+.lightbox .lb-nav a.lb-prev,
+.lightbox .lb-nav a.lb-next {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.lightbox .lb-close {
+    background-color: #000 !important;
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
 
